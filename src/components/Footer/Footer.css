@@ -1,0 +1,49 @@
+.contenedorFooter{
+	justify-content: space-around;
+	background-color: black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color: white;
+	font-size: 12px;
+}
+.dividerFooter{
+	width: 15%;
+	border: 2px solid white;
+	margin-top: 5%;
+	margin-bottom: 4px;
+}
+p{
+  margin-top: 5px;	
+}
+.ubicacion{
+	font-size: 18px !important;
+	font-weight: bolder;
+}
+.buttonFoot{
+	font-size: 12px;
+	display: flex;
+	justify-content: space-around;
+	padding:.5em 1em .5em 1em;
+	margin-bottom: 1em;
+	background-color: white;
+	border-radius: 5px;
+	align-items: center;
+}
+.icons{
+	width: 20px;
+	height: 20px;
+}
+
+.text-light{
+	color:rgb(159,159,159)
+}
+
+@media (max-width: 720px){
+	.contenedorFooter{
+		flex-direction: column;
+		gap:20px;
+	}
+	.responsive{
+		width: 80%;
+	}
+}
